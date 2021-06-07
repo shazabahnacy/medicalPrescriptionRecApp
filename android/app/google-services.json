@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1026710618701",
+    "project_id": "medical-prescription-5ec02",
+    "storage_bucket": "medical-prescription-5ec02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026710618701:android:a766ad17105e38400c1204",
+        "android_client_info": {
+          "package_name": "com.medicalprescription.gradui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026710618701-629072m9md02sst217f2vkrie939s20u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdP2aED1XF5X4FKJo8jQ-onZt3VtabHZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026710618701-629072m9md02sst217f2vkrie939s20u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
