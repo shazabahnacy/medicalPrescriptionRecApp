@@ -5,9 +5,9 @@
     "environmentVariables": []
   },
   "cmake": {
-    "cmakeArtifactsBaseFolder": "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\android\\app\\.cxx\\cmake\\debug\\x86",
-    "cmakeServerLogFile": "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\android\\app\\.cxx\\cmake\\debug\\x86\\cmake_server_log.txt",
-    "cmakeWrappingBaseFolder": "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\android\\app\\.cxx\\cxx\\debug\\x86",
+    "cmakeArtifactsBaseFolder": "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\android\\app\\.cxx\\cmake\\debug\\x86",
+    "cmakeServerLogFile": "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\android\\app\\.cxx\\cmake\\debug\\x86\\cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\android\\app\\.cxx\\cxx\\debug\\x86",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -15,13 +15,13 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\android\\app\\.cxx\\cmake\\debug\\x86",
+      "buildRoot": "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\android\\app\\.cxx\\cmake\\debug\\x86",
       "cmakeToolchain": "C:\\Users\\hp\\AppData\\Local\\Android\\sdk\\ndk\\21.3.6528147\\build\\cmake\\android.toolchain.cmake",
       "cmakeExecutable": "C:\\Users\\hp\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
       "variables": [
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\android\\app\\.cxx\\cmake\\debug\\prefab\\x86\\prefab"
+          "value": "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\android\\app\\.cxx\\cmake\\debug\\prefab\\x86\\prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -57,7 +57,7 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\build\\app\\intermediates\\cmake\\debug\\obj\\x86"
+          "value": "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\build\\app\\intermediates\\cmake\\debug\\obj\\x86"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
@@ -74,14 +74,14 @@
       ]
     }
   },
-  "cxxBuildFolder": "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\android\\app\\.cxx\\cmake\\debug\\x86",
+  "cxxBuildFolder": "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\android\\app\\.cxx\\cmake\\debug\\x86",
   "info": {
     "abi": "X86",
     "bitness": 32,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\android\\app\\.cxx\\cmake\\debug\\x86",
+  "originalCxxBuildFolder": "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\android\\app\\.cxx\\cmake\\debug\\x86",
   "variant": {
     "buildSystemArgumentList": [],
     "buildTargetSet": [],
@@ -97,12 +97,12 @@
         "ninjaExe": "C:\\Users\\hp\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
       },
       "cmakeToolchainFile": "C:\\Users\\hp\\AppData\\Local\\Android\\sdk\\ndk\\21.3.6528147\\build\\cmake\\android.toolchain.cmake",
-      "cxxFolder": "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\android\\app\\.cxx",
+      "cxxFolder": "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\android\\app\\.cxx",
       "gradleModulePathName": ":app",
-      "intermediatesFolder": "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\build\\app\\intermediates",
-      "makeFile": "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\android\\CMakeLists.txt",
-      "moduleBuildFile": "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\android\\app\\build.gradle",
-      "moduleRootFolder": "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\android\\app",
+      "intermediatesFolder": "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\build\\app\\intermediates",
+      "makeFile": "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\android\\CMakeLists.txt",
+      "moduleBuildFile": "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\android\\app\\build.gradle",
+      "moduleRootFolder": "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\android\\app",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
@@ -167,12 +167,12 @@
       "ndkDefaultStl": "LIBCXX_STATIC",
       "ndkVersion": "21.3.6528147",
       "project": {
-        "compilerSettingsCacheFolder": "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\android\\.cxx",
-        "cxxFolder": "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\android\\.cxx",
+        "compilerSettingsCacheFolder": "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\android\\.cxx",
+        "cxxFolder": "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\android\\.cxx",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
-        "rootBuildGradleFolder": "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\android",
+        "rootBuildGradleFolder": "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\android",
         "sdkFolder": "C:\\Users\\hp\\AppData\\Local\\Android\\sdk",
         "isPrefabEnabled": false
       },
@@ -189,7 +189,7 @@
         "SYSTEM": {}
       }
     },
-    "objFolder": "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\build\\app\\intermediates\\cmake\\debug\\obj",
+    "objFolder": "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\build\\app\\intermediates\\cmake\\debug\\obj",
     "variantName": "debug",
     "validAbiList": [
       "ARMEABI_V7A",
@@ -197,8 +197,8 @@
       "X86",
       "X86_64"
     ],
-    "prefabDirectory": "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\android\\app\\.cxx\\cmake\\debug\\prefab",
+    "prefabDirectory": "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\android\\app\\.cxx\\cmake\\debug\\prefab",
     "prefabPackageDirectoryList": []
   },
-  "prefabFolder": "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\android\\app\\.cxx\\cmake\\debug\\prefab\\x86"
+  "prefabFolder": "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\android\\app\\.cxx\\cmake\\debug\\prefab\\x86"
 }

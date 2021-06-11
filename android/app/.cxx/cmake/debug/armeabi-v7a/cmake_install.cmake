@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/hp/Documents/GitHub/object_detection_flutter/android
+# Install script for directory: C:/Users/hp/Documents/GitHub/medicalPrescriptionRecApp/android
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/hp/Documents/GitHub/object_detection_flutter/android/app/.cxx/cmake/debug/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/hp/Documents/GitHub/medicalPrescriptionRecApp/android/app/.cxx/cmake/debug/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

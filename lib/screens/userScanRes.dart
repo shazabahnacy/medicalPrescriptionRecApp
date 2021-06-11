@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:object_detection/camera/home_view.dart';
 import 'package:object_detection/screens/adminReq.dart';
 import 'package:object_detection/screens/manageMedList.dart';
 import 'package:object_detection/screens/pharmScanResults.dart';
@@ -50,7 +51,7 @@ class _UserScanResultsPageState extends State<UserScanResultsPage> {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => ScanningPage(),
+                      builder: (context) => HomeView(),
                     ));
               },
             ),

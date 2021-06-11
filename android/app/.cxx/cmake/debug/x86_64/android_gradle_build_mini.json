@@ -2,18 +2,18 @@
   "buildFiles": [
     "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\build\\cmake\\platforms.cmake",
     "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\build\\cmake\\android.toolchain.cmake",
-    "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\android\\CMakeLists.txt"
+    "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\android\\CMakeLists.txt"
   ],
   "cleanCommands": [
-    "C:\\Users\\hp\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\android\\app\\.cxx\\cmake\\debug\\x86_64\" clean"
+    "C:\\Users\\hp\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\android\\app\\.cxx\\cmake\\debug\\x86_64\" clean"
   ],
-  "buildTargetsCommand": "C:\\Users\\hp\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\android\\app\\.cxx\\cmake\\debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "C:\\Users\\hp\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\android\\app\\.cxx\\cmake\\debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "convertImage-Debug-x86_64": {
       "artifactName": "convertImage",
-      "buildCommand": "C:\\Users\\hp\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\android\\app\\.cxx\\cmake\\debug\\x86_64\" convertImage",
+      "buildCommand": "C:\\Users\\hp\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\android\\app\\.cxx\\cmake\\debug\\x86_64\" convertImage",
       "abi": "x86_64",
-      "output": "C:\\Users\\hp\\Documents\\GitHub\\object_detection_flutter\\build\\app\\intermediates\\cmake\\debug\\obj\\x86_64\\libconvertImage.so",
+      "output": "C:\\Users\\hp\\Documents\\GitHub\\medicalPrescriptionRecApp\\build\\app\\intermediates\\cmake\\debug\\obj\\x86_64\\libconvertImage.so",
       "runtimeFiles": []
     }
   }

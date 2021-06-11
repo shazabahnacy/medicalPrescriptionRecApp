@@ -1,7 +1,7 @@
 Executable : C:\Users\hp\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe
 arguments : 
 -C
-C:\Users\hp\Documents\GitHub\object_detection_flutter\android\app\.cxx\cmake\debug\x86_64
+C:\Users\hp\Documents\GitHub\medicalPrescriptionRecApp\android\app\.cxx\cmake\debug\x86_64
 convertImage
 jvmArgs : 
 

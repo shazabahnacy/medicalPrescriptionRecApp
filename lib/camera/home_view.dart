@@ -1,5 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:object_detection/screens/adminReq.dart';
+import 'package:object_detection/screens/manageMedList.dart';
+import 'package:object_detection/screens/pharmScanResults.dart';
+import 'package:object_detection/screens/userScanRes.dart';
 import 'package:object_detection/tflite/classifierYolov4.dart';
 import 'package:object_detection/tflite/recognition.dart';
 import 'package:object_detection/tflite/stats.dart';
@@ -7,6 +11,7 @@ import 'package:object_detection/camera/box_widget.dart';
 import 'package:object_detection/camera/camera_view_singleton.dart';
 //import 'package:object_detection/camera/imagepick.dart';
 import 'camera_view.dart';
+import 'imagepick.dart';
 
 /// [HomeView] stacks [CameraView] and [BoxWidget]s with bottom sheet for stats
 class HomeView extends StatefulWidget {
@@ -27,8 +32,92 @@ class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      key: scaffoldKey,
-      backgroundColor: Colors.black,
+      appBar: AppBar(
+        title: Text("Medical prescription recognizer"),
+        backgroundColor: Colors.blue,
+        elevation: 0.0,
+      ),
+      drawer: Drawer(
+        // Add a ListView to the drawer. This ensures the user can scroll
+        // through the options in the drawer if there isn't enough vertical
+        // space to fit everything.
+        child: ListView(
+          // Important: Remove any padding from the ListView.
+          padding: EdgeInsets.zero,
+          children: <Widget>[
+            DrawerHeader(
+              decoration: BoxDecoration(
+                color: Colors.blue,
+              ),
+              child: Center(
+                  child: Text(
+                'App Menu',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  color: Colors.black,
+                  fontFamily: "RobotoMono",
+                  fontSize: 15.0,
+                ),
+              )),
+            ),
+            ListTile(
+              leading: Icon(Icons.list_alt_outlined),
+              title: Text('Scanning Prescriptions'),
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => Pickimage(),
+                    ));
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.list_alt_outlined),
+              title: Text('Manage Medicine List'),
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => ManageMedListPage(),
+                    ));
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.request_page),
+              title: Text('Admin Requests'),
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => AdminRequestPage(),
+                    ));
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.medical_services),
+              title: Text('User medical prescriptions'),
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => UserScanResultsPage(),
+                    ));
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.medical_services),
+              title: Text('Pharmasict medical prescriptions'),
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => PharmScanResultsPage(),
+                    ));
+              },
+            ),
+          ],
+        ),
+      ),
       body: Stack(
         children: <Widget>[
           // Camera View
@@ -38,21 +127,6 @@ class _HomeViewState extends State<HomeView> {
           boundingBoxes(results),
 
           // Heading
-          Align(
-            alignment: Alignment.topLeft,
-            child: Container(
-              padding: EdgeInsets.only(top: 20),
-              child: Text(
-                'Medical prescription reader',
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: 38,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.blueAccent.withOpacity(0.6),
-                ),
-              ),
-            ),
-          ),
 
           // Bottom Sheet
           Align(
@@ -90,7 +164,23 @@ class _HomeViewState extends State<HomeView> {
                                   ],
                                 ),
                               )
-                            : Container()
+                            : Container(
+                                // child: FloatingActionButton(
+                                //     elevation: 4,
+                                //     backgroundColor: Colors.blue,
+                                //     child: Icon(
+                                //       Icons.add,
+                                //     ),
+                                //     onPressed: () {
+                                //       Navigator.push(
+                                //         context,
+                                //         MaterialPageRoute(
+                                //           builder: (context) =>
+                                //               UserScanResultsPage(),
+                                //         ),
+                                //       );
+                                //     }))
+                                )
                       ],
                     ),
                   ),

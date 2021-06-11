@@ -42,7 +42,7 @@ rule C_SHARED_LIBRARY_LINKER__convertImage
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\hp\Documents\GitHub\object_detection_flutter\android -BC:\Users\hp\Documents\GitHub\object_detection_flutter\android\app\.cxx\cmake\debug\x86
+  command = C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\hp\Documents\GitHub\medicalPrescriptionRecApp\android -BC:\Users\hp\Documents\GitHub\medicalPrescriptionRecApp\android\app\.cxx\cmake\debug\x86
   description = Re-running CMake...
   generator = 1
 

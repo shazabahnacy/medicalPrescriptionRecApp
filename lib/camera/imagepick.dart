@@ -13,13 +13,13 @@ import 'package:object_detection/utils/isolate_utils.dart';
 /// [CameraView] sends each frame for inference
 class Pickimage extends StatefulWidget {
   /// Callback to pass results after inference to [HomeView]
-  final Function(List<Recognition> recognitions) resultsCallback;
+  //final Function(List<Recognition> recognitions) resultsCallback;
 
   /// Callback to inference stats to [HomeView]
-  final Function(Stats stats) statsCallback;
+  //final Function(Stats stats) statsCallback;
 
   /// Constructor
-  const Pickimage(this.resultsCallback, this.statsCallback);
+  const Pickimage();
 
   @override
   _PickimageState createState() => _PickimageState();
@@ -113,11 +113,11 @@ class _PickimageState extends State<Pickimage> with WidgetsBindingObserver {
           DateTime.now().millisecondsSinceEpoch - uiThreadTimeStart;
 
       // pass results to HomeView
-      widget.resultsCallback(inferenceResults["recognitions"]);
+      //widget.resultsCallback(inferenceResults["recognitions"]);
 
       // pass stats to HomeView
-      widget.statsCallback((inferenceResults["stats"] as Stats)
-        ..totalElapsedTime = uiThreadInferenceElapsedTime);
+      //widget.statsCallback((inferenceResults["stats"] as Stats)
+      //  ..totalElapsedTime = uiThreadInferenceElapsedTime);
       //widget.imageCallback(inferenceResults["image"]);
 
       // set predicting to false to allow new frames

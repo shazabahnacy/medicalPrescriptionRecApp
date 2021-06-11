@@ -1,3 +1,3 @@
 # ninja log v5
-0	10271	645044675	CMakeFiles/convertImage.dir/C_/Users/hp/Documents/GitHub/object_detection_flutter/ios/Classes/converter.c.o	e7f8ead1721c5506
-10273	15628	645044680	C:/Users/hp/Documents/GitHub/object_detection_flutter/build/app/intermediates/cmake/debug/obj/arm64-v8a/libconvertImage.so	1730c4a4a5f3b7b0
+1	10288	645073353	CMakeFiles/convertImage.dir/C_/Users/hp/Documents/GitHub/medicalPrescriptionRecApp/ios/Classes/converter.c.o	fbf13d8c5160d36c
+10289	15519	645073359	C:/Users/hp/Documents/GitHub/medicalPrescriptionRecApp/build/app/intermediates/cmake/debug/obj/arm64-v8a/libconvertImage.so	b06f900c502d39f8

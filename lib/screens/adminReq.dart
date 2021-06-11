@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:auto_size_text/auto_size_text.dart';
+import 'package:object_detection/camera/home_view.dart';
 import 'package:object_detection/screens/manageMedList.dart';
 import 'package:object_detection/screens/pharmScanResults.dart';
 import 'package:object_detection/screens/scanningpres.dart';
@@ -51,7 +52,7 @@ class _AdminRequestPageState extends State<AdminRequestPage> {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => ScanningPage(),
+                      builder: (context) => HomeView(),
                     ));
               },
             ),

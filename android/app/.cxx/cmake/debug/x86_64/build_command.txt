@@ -1,7 +1,7 @@
 Executable : C:\Users\hp\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\cmake.exe
 arguments : 
--HC:\Users\hp\Documents\GitHub\object_detection_flutter\android
--DCMAKE_FIND_ROOT_PATH=C:\Users\hp\Documents\GitHub\object_detection_flutter\android\app\.cxx\cmake\debug\prefab\x86_64\prefab
+-HC:\Users\hp\Documents\GitHub\medicalPrescriptionRecApp\android
+-DCMAKE_FIND_ROOT_PATH=C:\Users\hp\Documents\GitHub\medicalPrescriptionRecApp\android\app\.cxx\cmake\debug\prefab\x86_64\prefab
 -DCMAKE_BUILD_TYPE=Debug
 -DCMAKE_TOOLCHAIN_FILE=C:\Users\hp\AppData\Local\Android\sdk\ndk\21.3.6528147\build\cmake\android.toolchain.cmake
 -DANDROID_ABI=x86_64
@@ -10,11 +10,11 @@ arguments :
 -DCMAKE_ANDROID_ARCH_ABI=x86_64
 -DCMAKE_ANDROID_NDK=C:\Users\hp\AppData\Local\Android\sdk\ndk\21.3.6528147
 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\hp\Documents\GitHub\object_detection_flutter\build\app\intermediates\cmake\debug\obj\x86_64
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\hp\Documents\GitHub\medicalPrescriptionRecApp\build\app\intermediates\cmake\debug\obj\x86_64
 -DCMAKE_MAKE_PROGRAM=C:\Users\hp\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe
 -DCMAKE_SYSTEM_NAME=Android
 -DCMAKE_SYSTEM_VERSION=21
--BC:\Users\hp\Documents\GitHub\object_detection_flutter\android\app\.cxx\cmake\debug\x86_64
+-BC:\Users\hp\Documents\GitHub\medicalPrescriptionRecApp\android\app\.cxx\cmake\debug\x86_64
 -GNinja
 jvmArgs : 
 
