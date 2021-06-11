@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:gradui/screens/manageMedList.dart';
-import 'package:gradui/screens/pharmScanResults.dart';
-import 'package:gradui/screens/scanningpres.dart';
-import 'package:gradui/screens/userScanRes.dart';
+import 'package:object_detection/camera/home_view.dart';
+import 'package:object_detection/screens/manageMedList.dart';
+import 'package:object_detection/screens/pharmScanResults.dart';
+import 'package:object_detection/screens/scanningpres.dart';
+import 'package:object_detection/screens/userScanRes.dart';
 
 class AdminRequestPage extends StatefulWidget {
   @override
@@ -51,7 +52,7 @@ class _AdminRequestPageState extends State<AdminRequestPage> {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => ScanningPage(),
+                      builder: (context) => HomeView(),
                     ));
               },
             ),
