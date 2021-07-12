@@ -12,16 +12,17 @@ class Stats {
 
   /// Time taken to pre-process the image
   int preProcessingTime;
+  List<String> labels;
 
   Stats(
       {this.totalPredictTime,
       this.totalElapsedTime,
       this.inferenceTime,
       this.preProcessingTime,
-      List<String> labels});
+      this.labels});
 
   @override
   String toString() {
-    return 'Stats{totalPredictTime: $totalPredictTime, totalElapsedTime: $totalElapsedTime, inferenceTime: $inferenceTime, preProcessingTime: $preProcessingTime,}';
+    return 'Stats{totalPredictTime: $totalPredictTime, totalElapsedTime: $totalElapsedTime, inferenceTime: $inferenceTime, preProcessingTime: $preProcessingTime, labels: $labels}';
   }
 }

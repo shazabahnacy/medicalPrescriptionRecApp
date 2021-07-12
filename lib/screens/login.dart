@@ -155,17 +155,17 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Text(
-                'Are you an admin ?',
+                'Donot want to create an account?',
                 style: TextStyle(fontFamily: 'Montserrat'),
               ),
               SizedBox(width: 5.0),
               InkWell(
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Adminlogin()));
+                      MaterialPageRoute(builder: (context) => HomeView()));
                 },
                 child: Text(
-                  'sign in as admin',
+                  'Sign In As A Guest.',
                   style: TextStyle(
                       color: Colors.blue,
                       fontFamily: 'Montserrat',

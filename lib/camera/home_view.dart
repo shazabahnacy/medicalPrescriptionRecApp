@@ -22,6 +22,7 @@ class HomeView extends StatefulWidget {
 class _HomeViewState extends State<HomeView> {
   /// Results to draw bounding boxes
   List<Recognition> results;
+  List hamada;
 
   /// Realtime stats
   Stats stats;
@@ -147,14 +148,13 @@ class _HomeViewState extends State<HomeView> {
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         Icon(Icons.keyboard_arrow_up,
-                            size: 48, color: Colors.orange),
+                            size: 48, color: Colors.blue),
                         (stats != null)
                             ? Padding(
                                 padding: const EdgeInsets.all(8.0),
                                 child: Column(
                                   children: [
-                                    StatsRow('Inference time:',
-                                        '${stats.inferenceTime} ms'),
+                                    StatsRow('Predicted Medicines:', '$hamada'),
                                     StatsRow('Total prediction time:',
                                         '${stats.totalElapsedTime} ms'),
                                     StatsRow('Pre-processing time:',
@@ -211,11 +211,22 @@ class _HomeViewState extends State<HomeView> {
   void resultsCallback(List<Recognition> results) {
     setState(() {
       this.results = results;
+      print("hamada3");
+      if (results.length > 0) {
+        hamada = [];
+      }
+
+      print("hamada1");
       // for (var i in this.results) {
       //   print(this.results.);
       // }
       this.results.forEach((element) {
+        print("hamada2");
         print(element.label);
+        if (!hamada.contains(element.label)) {
+          hamada.add(element.label);
+        }
+        print("hamada");
       });
     });
   }
